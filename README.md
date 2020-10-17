@@ -1,0 +1,2 @@
+# CustomersNearLocation
+Assessment script

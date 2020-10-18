@@ -2,8 +2,6 @@ import unittest
 from unittest.mock import patch
 from unittest.mock import mock_open
 import json
-import sys
-sys.path.append(".")
 from customers_near_location import customer_importer
 
 class TestCustomerImporter(unittest.TestCase):

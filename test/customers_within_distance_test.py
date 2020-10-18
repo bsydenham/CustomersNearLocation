@@ -1,6 +1,4 @@
 import unittest
-import sys
-sys.path.append(".")
 from customers_near_location import customer_importer
 from customers_near_location import customers_within_distance
 

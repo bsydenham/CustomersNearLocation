@@ -1,8 +1,6 @@
 import unittest
 from unittest.mock import patch, mock_open, call
 import json
-import sys
-sys.path.append(".")
 from customers_near_location import customer_importer
 from customers_near_location import customer_output
 

@@ -5,7 +5,7 @@ class CustomerOutput:
         self.user_id = user_id
         self.name = name
 
-def output_customers(filename: str, customers: list):
+def output_customers(filename: str, customers: list) -> None:
     write_list = []
     for customer in customers:
         write_list.append(CustomerOutput(customer.user_id, customer.name))
